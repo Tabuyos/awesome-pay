@@ -4,4 +4,6 @@ include "awesome-pay-util"
 include "awesome-pay-common"
 include "awesome-pay-service"
 include "awesome-pay-demo"
+include 'awesome-pay-alipay'
+include 'awesome-pay-wxpay'
 
