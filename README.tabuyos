@@ -1,0 +1,20 @@
+;; :Author: Tabuyos(Aaron Liew)
+;; :Date: 11-30-2020
+;; :Time: 14:00:00
+;; :Site: www.tabuyos.com
+;; :Email: tabuyos@outlook.com
+;; :Description: t-pay
+
+(:
+  各种的 model 存放于 common 包中，包括不限于 entity, do, dto, vo 等。
+  所有的工具方法存放于 util 包中，如 file, http, rpc, op-conf 等。
+  为了提供方便的操作，或者分离包用于部署单独的支付业务平台，相应的接口存放于 api 包中，如 app-pay, pre-create-pay, face-to-face-pay, notify-url, return-url 等。
+  service 包为 api 包提供支持，或者为开发者自定义接口提供支付业务能力。
+  所有的测试 demo 存放与 test 包中。
+:)
+
+pay-common: model
+pay-util: util
+pay-test: test pay
+pay-service: service
+pay-api: api
